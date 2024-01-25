@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: white;
+    background-color: rgb(147, 151, 184);
     height: 100%;
 }
 
@@ -28,6 +28,13 @@ body{
     border: 0;
     border-radius: 30px;
     cursor: pointer;
+}
+
+h2.titulo{
+    color: blueviolet;
+    font-size: 40px;
+    font-weight: 20px;
+    text-align: center;
 }
 /* ESTILO DO CABEÇALHO */
 header{
@@ -93,10 +100,9 @@ section.topo-do-site .flex{
     font-weight: 300;
     margin: 40px 0;
 }
-
-.topo-do-site .img-topo-site{
-    border-radius: 50%;
-    border-radius: 5px solid;
+.foto{
+    border: blueviolet solid 5px;
+    border-radius: 35% 15px;
 }
 
 .topo-do-site .img-topo-site{
@@ -111,4 +117,31 @@ section.topo-do-site .flex{
     100%{
         top:30px;
     }
+}
+
+/* ESTILO DAS HABILIDADES */
+
+.section .habilidades{
+    padding: 40px 4%;
+}
+
+.section .habilidades .flex{
+    gap: 60px;
+
+}
+
+.habilidades .box{
+    color: rgb(245, 245, 245);
+    padding: 40px;
+    border: 2px solid white;
+}
+
+.habilidades .box i{
+font-size: 70px;
+color: blueviolet;
+}
+
+.habilidades.box h3{
+font-size: 18px;
+margin: 15px 4%;
 }
